@@ -1,0 +1,90 @@
+* {
+    font-size: 20px;
+}
+
+body {
+    margin: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 34px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.tit1 {
+    background-color: blue;
+    width:400px;
+    margin:auto;
+}
+
+.tit2 {
+    background-color:rgb(248, 187, 76);
+    width:300px;
+    margin:auto;
+}
+
+table {
+    text-align: center;
+    width: 50%
+}
+
+a:link {
+    color: darkblue
+}
+
+a:visited {
+    color: darkblue
+}
+
+a:hover {
+    color: rgb(20, 13, 220)
+}
+
+#esp a:active {
+    color: rgb(20, 13, 220)
+}
+
+#esp a:link {
+    color: orange
+}
+
+#esp a:visited {
+    color: orange
+}
+
+#esp a:hover {
+    color: rgb(248, 187, 76)
+}
+
+#esp a:active {
+    color: rgb(248, 187, 76)
+}
+
+
+div.mycontainer {
+    width:100%;
+    overflow:auto;
+    text-align:center
+  }
+div.mycontainer div {
+    width:25%;  
+    float:left;
+  }
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+.gallery img {
+    width: 100%;
+}
+
+  
